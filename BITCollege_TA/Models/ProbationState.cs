@@ -19,13 +19,10 @@ namespace BITCollege_TA.Models
 
       public static ProbationState GetInstance()
       {
-        // Check if the instance is null
         if (_populatedObject == null)
         {
-            // use inherited data context object; calling SingleOrDefault to tell if a record of this type exists in the database
             _populatedObject = db.ProbationState.SingleOrDefault();
 
-            // persist to database if null
             if (_populatedObject == null)
             {
                 _populatedObject = new ProbationState();
