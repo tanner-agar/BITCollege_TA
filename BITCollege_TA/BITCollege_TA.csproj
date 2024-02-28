@@ -135,6 +135,12 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HonoursStatesController.cs" />
     <Compile Include="Controllers\MasteryCoursesController.cs" />
+    <Compile Include="Controllers\NextAuditCoursesController.cs" />
+    <Compile Include="Controllers\NextGradedCoursesController.cs" />
+    <Compile Include="Controllers\NextMasteryCoursesController.cs" />
+    <Compile Include="Controllers\NextRegistrationsController.cs" />
+    <Compile Include="Controllers\NextStudentsController.cs" />
+    <Compile Include="Controllers\NextUniqueNumbersController.cs" />
     <Compile Include="Controllers\ProbationStatesController.cs" />
     <Compile Include="Controllers\RegistrationsController.cs" />
     <Compile Include="Controllers\RegularStatesController.cs" />
@@ -164,9 +170,32 @@
     <Compile Include="Migrations\202402072006063_Check.designer.cs">
       <DependentUpon>202402072006063_Check.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202402242030012_newModels.cs" />
+    <Compile Include="Migrations\202402242030012_newModels.designer.cs">
+      <DependentUpon>202402242030012_newModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402242046026_GetInstances.cs" />
+    <Compile Include="Migrations\202402242046026_GetInstances.designer.cs">
+      <DependentUpon>202402242046026_GetInstances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402242135391_StoredProcedure.cs" />
+    <Compile Include="Migrations\202402242135391_StoredProcedure.designer.cs">
+      <DependentUpon>202402242135391_StoredProcedure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402242242258_latest.cs" />
+    <Compile Include="Migrations\202402242242258_latest.designer.cs">
+      <DependentUpon>202402242242258_latest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AcademicProgram.cs" />
     <Compile Include="Models\AuditCourse.cs" />
+    <Compile Include="Models\StoredProcedure.cs" />
+    <Compile Include="Models\NextAuditCourse.cs" />
+    <Compile Include="Models\NextMasteryCourse.cs" />
+    <Compile Include="Models\NextRegistration.cs" />
+    <Compile Include="Models\NextGradedCourse.cs" />
+    <Compile Include="Models\NextStudent.cs" />
+    <Compile Include="Models\NextUniqueNumber.cs" />
     <Compile Include="Models\ProbationState.cs" />
     <Compile Include="Models\Registration.cs" />
     <Compile Include="Models\GradePointState.cs" />
@@ -178,6 +207,11 @@
     <Compile Include="Models\HonoursState.cs" />
     <Compile Include="Models\SuspendedState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -199,6 +233,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Migrations\SQL\create_next_number.sql" />
+    <Content Include="Migrations\SQL\drop_next_number.sql" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -286,9 +322,30 @@
     <Content Include="Views\SuspendedStates\Index.cshtml" />
     <Content Include="Views\ProbationStates\Index.cshtml" />
     <Content Include="Views\HonoursStates\Index.cshtml" />
+    <Content Include="Views\NextAuditCourses\Delete.cshtml" />
+    <Content Include="Views\NextAuditCourses\Details.cshtml" />
+    <Content Include="Views\NextAuditCourses\Edit.cshtml" />
+    <Content Include="Views\NextGradedCourses\Delete.cshtml" />
+    <Content Include="Views\NextGradedCourses\Details.cshtml" />
+    <Content Include="Views\NextGradedCourses\Edit.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Delete.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Details.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Edit.cshtml" />
+    <Content Include="Views\NextRegistrations\Delete.cshtml" />
+    <Content Include="Views\NextRegistrations\Details.cshtml" />
+    <Content Include="Views\NextRegistrations\Edit.cshtml" />
+    <Content Include="Views\NextStudents\Delete.cshtml" />
+    <Content Include="Views\NextStudents\Details.cshtml" />
+    <Content Include="Views\NextStudents\Edit.cshtml" />
+    <Content Include="Views\NextAuditCourses\Index.cshtml" />
+    <Content Include="Views\NextGradedCourses\Index.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Index.cshtml" />
+    <Content Include="Views\NextRegistrations\Index.cshtml" />
+    <Content Include="Views\NextStudents\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\NextUniqueNumbers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -332,6 +389,22 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202402072006063_Check.resx">
       <DependentUpon>202402072006063_Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402242030012_newModels.resx">
+      <DependentUpon>202402242030012_newModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402242046026_GetInstances.resx">
+      <DependentUpon>202402242046026_GetInstances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402242135391_StoredProcedure.resx">
+      <DependentUpon>202402242135391_StoredProcedure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402242242258_latest.resx">
+      <DependentUpon>202402242242258_latest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

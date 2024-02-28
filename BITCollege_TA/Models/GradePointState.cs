@@ -59,7 +59,7 @@ namespace BITCollege_TA.Models
         }
 
 
-        protected static BITCollege_TAContext db;
+        protected static BITCollege_TAContext db = new BITCollege_TAContext();
 
 
         public abstract void StateChangeCheck(Student student);

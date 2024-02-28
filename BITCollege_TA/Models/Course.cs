@@ -10,6 +10,9 @@ namespace BITCollege_TA.Models
     public abstract class Course
     {
 
+        public abstract void SetNextCourseNumber();
+
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CourseId { get; set; }
@@ -23,7 +26,6 @@ namespace BITCollege_TA.Models
         // Navigation - Many side to 0..1 of Academic Program
         public virtual AcademicProgram AcademicProgram { get; set; }
 
-        [Required]
         [Display(Name = "Course Number\n")]
         [DisplayFormat(ApplyFormatInEditMode = true)]
         public string CourseNumber { get; set; }

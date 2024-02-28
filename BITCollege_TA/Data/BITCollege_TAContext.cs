@@ -41,5 +41,17 @@ namespace BITCollege_TA.Data
         
         public System.Data.Entity.DbSet<BITCollege_TA.Models.RegularState> RegularState { get; set; }
         public System.Data.Entity.DbSet<BITCollege_TA.Models.Course> Courses { get; set; }
+
+        public System.Data.Entity.DbSet<BITCollege_TA.Models.NextUniqueNumber> NextUniqueNumbers { get; set; }
+
+        public System.Data.Entity.DbSet<BITCollege_TA.Models.NextAuditCourse> NextAuditCourses { get; set; }
+
+        public System.Data.Entity.DbSet<BITCollege_TA.Models.NextGradedCourse> NextGradedCourses { get; set; }
+
+        public System.Data.Entity.DbSet<BITCollege_TA.Models.NextMasteryCourse> NextMasteryCourses { get; set; }
+
+        public System.Data.Entity.DbSet<BITCollege_TA.Models.NextRegistration> NextRegistrations { get; set; }
+
+        public System.Data.Entity.DbSet<BITCollege_TA.Models.NextStudent> NextStudents { get; set; }
     }
 }

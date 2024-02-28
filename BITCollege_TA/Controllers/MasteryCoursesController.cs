@@ -53,6 +53,7 @@ namespace BITCollege_TA.Controllers
         {
             if (ModelState.IsValid)
             {
+                masteryCourse.SetNextCourseNumber();
                 db.Courses.Add(masteryCourse);
                 db.SaveChanges();
                 return RedirectToAction("Index");

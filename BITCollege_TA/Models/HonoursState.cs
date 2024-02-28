@@ -14,13 +14,13 @@ namespace BITCollege_TA.Models
         public class HonoursState : GradePointState
         {
             private static HonoursState _populatedObject;
-            public HonoursState()
+            private HonoursState()
             {
                 LowerLimit = 3.70;
                 UpperLimit = 4.50;
                 TuitionRateFactor = 0.9;
                 db = new BITCollege_TAContext();
-        }
+            }
 
             public static HonoursState GetInstance()
             {

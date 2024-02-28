@@ -19,7 +19,6 @@ namespace BITCollege_TA.Models
             LowerLimit = 0.00;
             UpperLimit = 1.00;
             TuitionRateFactor = 1.1;
-            db = new BITCollege_TAContext();
         }
 
 

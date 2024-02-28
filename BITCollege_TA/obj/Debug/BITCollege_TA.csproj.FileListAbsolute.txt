@@ -87,3 +87,8 @@ C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.newMigrate.resources
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.newMigrate2.resources
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.Check.resources
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.newModels.resources
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.GetInstances.resources
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Properties.Resource1.resources
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.StoredProcedure.resources
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.latest.resources

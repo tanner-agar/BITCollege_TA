@@ -9,6 +9,21 @@ namespace BITCollege_TA.Models
 {
     public class Registration
     {
+        public void SetNextRegistrationNumber()
+        {
+            //value of R- followed by value returned from NextNumber static method
+            RegistrationNumber = "R-";
+            long? nextNum = StoredProcedure.NextNumber("R");
+            string appendString = RegistrationNumber + nextNum.ToString();
+            if (nextNum != null)
+            {
+                RegistrationNumber += nextNum.ToString();
+            }
+        }
+
+
+
+
         [Key] //Optional if -Id suffix real
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int RegistrationId { get; set; }
@@ -19,13 +34,13 @@ namespace BITCollege_TA.Models
         public int StudentId { get; set; }
         public virtual Student Student { get; set; }
 
+
         [Required]
         [Display(Name = "Course")]
         [ForeignKey("Course")]
         public int CourseId { get; set; }
         public virtual Course Course { get; set; }
 
-        [Required]
         [Display(Name = "Registration Number\n")]
         [DisplayFormat(ApplyFormatInEditMode = true)]
         public string RegistrationNumber { get; set; }

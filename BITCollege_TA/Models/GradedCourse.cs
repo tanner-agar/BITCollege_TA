@@ -8,6 +8,17 @@ namespace BITCollege_TA.Models
 {
     public class GradedCourse : Course
     {
+        public override void SetNextCourseNumber()
+        { 
+            CourseNumber = "G-";
+            long? nextNum = StoredProcedure.NextNumber("G");
+            string appendString = CourseNumber + nextNum.ToString();
+            if (nextNum != null)
+            {
+                CourseNumber += nextNum.ToString();
+            }
+        }
+
         [Required]
         [Display(Name = "Assignments")]
         //Percent format {0:F2}%
@@ -18,6 +29,8 @@ namespace BITCollege_TA.Models
         [Display(Name = "Exams")]
         [DisplayFormat(DataFormatString = "{0:F2}", ApplyFormatInEditMode = true)]
         public double ExamWeight { get; set; }
+
+
     }
 
 }
