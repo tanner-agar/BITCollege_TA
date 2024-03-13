@@ -47,12 +47,7 @@ namespace BITCollege_TA.Models
             {
                 // Move to RegularState if GPA falls below HonoursState's lower limit
                 student.GradePointStateId = RegularState.GetInstance().GradePointStateId;
-                stateChanged = true;
 
-            }
-            else
-            {
-                stateChanged = false;
             }
         }
         public override void TuitionRateAdjustment(Student student)

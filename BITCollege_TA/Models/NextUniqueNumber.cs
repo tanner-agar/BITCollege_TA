@@ -11,8 +11,8 @@ namespace BITCollege_TA.Models
 {
     public abstract class NextUniqueNumber
     {
-
-        protected static BITCollege_TAContext db;
+        //
+        protected static BITCollege_TAContext db = new BITCollege_TAContext();
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

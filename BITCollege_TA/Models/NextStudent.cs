@@ -28,7 +28,6 @@ namespace BITCollege_TA.Models
                     _nextStudent = new NextStudent();
                     db.NextUniqueNumbers.Add(_nextStudent);
                     db.SaveChanges();
-
                 }
             }
             return _nextStudent;

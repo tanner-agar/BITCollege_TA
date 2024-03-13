@@ -10,6 +10,7 @@ using BITCollege_TA.Data;
 using System.Data.Entity;
 using Microsoft.Ajax.Utilities;
 using System.Diagnostics;
+using BITCollege_TA.Migrations;
 
 namespace BITCollege_TA.Models
 {
@@ -32,7 +33,11 @@ namespace BITCollege_TA.Models
         public virtual AcademicProgram AcademicProgram { get; set; }
 
 
-
+        /*
+         * Student get instance of GPstate
+        Student invokes the check on the state for a change
+        Student passes itself (`this`) as student parameter
+        State performs the change as needed */
         private BITCollege_TAContext db = new BITCollege_TAContext();
         public void ChangeState()
         {
@@ -44,19 +49,23 @@ namespace BITCollege_TA.Models
                 // continue executing the process as long as states keep changing, i.e. while stateChanged true continue execution until satisfied. allows state to move multiple states if requirements are met.
                 while (stateChanged)
                 {
-                    // get the current state
+                    //state right now
                     GradePointState currentState = this.GradePointState;
-                    //use db instance --> GradePointState object
-                    GradePointState newState = db.GradePointStates.Find(this.GradePointStateId);
-                    //call StateChangeCheck
-                    currentState.StateChangeCheck(this);
-                    //update stateChanged flag
-                    stateChanged = currentState.stateChanged;
 
-                    // if state has changed, update GradePointState in the database
-                    if (stateChanged)
+                    //student invokes the check on the state change, this student param
+                    currentState.StateChangeCheck(this);
+
+                    //should it change? compare, is the state different ?
+                    //if it is perform
+                    if (currentState != this.GradePointState)
                     {
-                        this.GradePointStateId = newState.GradePointStateId;
+                        this.GradePointStateId = this.GradePointState.GradePointStateId;
+                        db.SaveChanges();
+                    }
+                    //end
+                    else
+                    {
+                        stateChanged = false;
                     }
                 }
             }

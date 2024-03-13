@@ -46,13 +46,7 @@ namespace BITCollege_TA.Models
             if (student.GradePointAverage > UpperLimit)
             {
                 // One way to ProbationState if GPA exceeds SuspendedState's upper limit
-                // track state
                 student.GradePointStateId = ProbationState.GetInstance().GradePointStateId;
-                stateChanged = true;
-            }
-            else
-            {
-                stateChanged = false;
             }
         }
 

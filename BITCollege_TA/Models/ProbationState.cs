@@ -12,7 +12,6 @@ namespace BITCollege_TA.Models
             LowerLimit = 1.00;
             UpperLimit = 2.00;
             TuitionRateFactor = 1.075;
-            db = new BITCollege_TAContext();
         }
 
 
@@ -40,18 +39,12 @@ namespace BITCollege_TA.Models
             // move to SuspendedState if GPA falls below ProbationState's lower limit
             // track state change
             student.GradePointStateId = SuspendedState.GetInstance().GradePointStateId;
-            stateChanged = true;
         }
         else if (student.GradePointAverage > UpperLimit)
         {
             // move to RegularState if GPA exceeds ProbationState's upper limit
             // track state change
             student.GradePointStateId = RegularState.GetInstance().GradePointStateId;
-            stateChanged = true;
-        }
-        else
-        {
-            stateChanged = false;
         }
     }
     public override void TuitionRateAdjustment(Student student)

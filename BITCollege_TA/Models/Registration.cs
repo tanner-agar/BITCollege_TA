@@ -23,7 +23,6 @@ namespace BITCollege_TA.Models
 
 
 
-
         [Key] //Optional if -Id suffix real
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int RegistrationId { get; set; }

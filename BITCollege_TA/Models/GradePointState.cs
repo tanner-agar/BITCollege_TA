@@ -16,8 +16,6 @@ namespace BITCollege_TA.Models
         [Required]
         public int GradePointStateId { get; set; }
 
-        public bool stateChanged;
-
         public ICollection<Student> Student { get; set; }
 
         [Required(ErrorMessage = "LowerLimit is required.")]

@@ -92,3 +92,5 @@ C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Properties.Resource1.resources
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.StoredProcedure.resources
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.latest.resources
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\bin\Utility.dll
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\bin\Utility.pdb

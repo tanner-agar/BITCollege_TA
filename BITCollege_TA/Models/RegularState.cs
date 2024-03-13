@@ -36,16 +36,10 @@ namespace BITCollege_TA.Models
                 if (student.GradePointAverage < LowerLimit)
                 {
                     student.GradePointStateId = ProbationState.GetInstance().GradePointStateId;
-                    stateChanged = true;
                 }
                 else if (student.GradePointAverage > UpperLimit)
                 {
                     student.GradePointStateId = HonoursState.GetInstance().GradePointStateId;
-                    stateChanged = true;
-                }
-                else
-                {
-                    stateChanged = false;
                 }
             }
 
