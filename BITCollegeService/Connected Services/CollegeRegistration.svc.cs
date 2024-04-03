@@ -17,6 +17,7 @@ namespace BITCollegeService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service2" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service2.svc or Service2.svc.cs at the Solution Explorer and start debugging.
+    //return promise, implement interface
     public class CollegeRegistration : ICollegeRegistration
     {
         //instantiate object of db context
@@ -67,11 +68,12 @@ namespace BITCollegeService
                     string getCourseType = course.CourseType;
                 }
 
-
+                //reassign studentList where, return one student
                 //student list query
+                //replace 74 to 75
+                //process the studentList
                 IQueryable<Student> studentList = db.Students;
-                studentList.Where(s => s.StudentId == studentId).SingleOrDefault();
-                Student student = db.Students.SingleOrDefault();
+                Student student = studentList.Where(s => s.StudentId == studentId).SingleOrDefault();
 
                 //student vars
                 double getOutStandingFees = student.OutstandingFees;
@@ -210,7 +212,7 @@ namespace BITCollegeService
                 }
 
                 // get student rec
-                var student = db.Students.FirstOrDefault(s => s.StudentId == studentId);
+                var student = db.Students.SingleOrDefault(s => s.StudentId == studentId);
 
                 if (student != null)
                 {

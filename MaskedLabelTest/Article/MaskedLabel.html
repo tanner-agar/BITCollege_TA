@@ -1,0 +1,244 @@
+<!--------------------------------------------------------------------------->
+<!--                           INTRODUCTION
+
+ The Code Project article submission template (HTML version)
+
+Using this template will help us post your article sooner. To use, just
+follow the 3 easy steps below:
+
+     1. Fill in the article description details
+     2. Add links to your images and downloads
+     3. Include the main article text
+
+That's all there is to it! All formatting will be done by our submission
+scripts and style sheets.
+
+-->
+<!--------------------------------------------------------------------------->
+<!--                        IGNORE THIS SECTION                            -->
+<html>
+<head>
+<title>The Code Project</title>
+<style>
+BODY, P, TD { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+H2,H3,H4,H5 { color: #ff9900; font-weight: bold; }
+H2 { font-size: 13pt; }
+H3 { font-size: 12pt; }
+H4 { font-size: 10pt; color: black; }
+PRE { BACKGROUND-COLOR: #FBEDBB; FONT-FAMILY: "Courier New", Courier, mono; WHITE-SPACE: pre; }
+CODE { COLOR: #990000; FONT-FAMILY: "Courier New", Courier, mono; }
+</style>
+<link rel="stylesheet" type=text/css href="http://www.codeproject.com/styles/global.css">
+</head>
+<body bgcolor="#FFFFFF" color=#000000>
+<!--------------------------------------------------------------------------->
+
+
+<!-------------------------------     STEP 1      --------------------------->
+<!--  Fill in the details (CodeProject will reformat this section for you) -->
+
+<pre>
+Title:       Masked Label Control
+Author:      Eric Woodruff
+Email:       Eric@EWoodruff.us
+Environment: Visual Studio .NET, Windows Forms, C#, VB.NET
+Keywords:    label, mask, MaskedTextBox, MaskedTextProvider
+Level:       Intermediate
+Description: A derived label control that can format its text using the same
+             mask characters as the MaskedTextBox control.
+Section      C# Windows Forms
+SubSection   C# Controls
+</pre>
+
+<!-------------------------------     STEP 2      --------------------------->
+<!--  Include download and sample image information.                       -->
+
+<ul class=download>
+<li><a href="MaskedLabel.zip">Download source - 114 Kb</a></li>
+</ul>
+
+<!-- Article image -->
+<p><img src='MaskedLabel.jpg' alt='Masked Label Example' height='178' width='388'></p>
+
+<!-------------------------------     STEP 3      --------------------------->
+<!--  Add the article text. Please use simple formatting (<h2>, <p> etc)   -->
+
+<h2>Introduction</h2>
+In .NET 2.0, there is a new <code>MaskedTextBox</code> control that allows
+you to specify a mask that is used to restrict the input characters and
+make the entered text conform to a specific format.  One of the features of
+the control is that you can retrieve the text from it excluding the literal
+characters when the <code>TextMaskFormat</code> property is set to
+<code>ExcludePromptAndLiterals</code>.  The problem with the unmasked text is
+that if you want to display it outside of the text box control, you need to
+manually put the mask characters back into it.  You could just use a
+disabled <code>MaskedTextBox</code> control but the text is usually harder to
+read.  You could make it read-only but the text box can still be focused.
+It also does not solve the problem if you want to display the value as part
+of a larger string or in a message box.  As such, I created the
+<code>MaskedLabel</code> control.
+
+<p/>The control is just a simple <code>Label</code> control with a few
+extra properties that let you specify the mask to apply when you set its
+text. In addition, it has a static overloaded <code>Format</code> method
+that you can use to format text with a mask so that it can be used in other
+ways without the need of an actual control instance (i.e. format and
+display the text in a message box). The supplied demo contains the
+assembly, a help file, and a demo application. See the help file for
+details on installing the assembly in the Visual Studio .NET tool box. You
+can also extract the <i>MaskedLabel.cs</i> source file for use in your own
+projects or control libraries.
+
+<h2>Using the Assembly in your Projects</h2>
+The classes can be found in the assembly
+<i>EWSoftware.MaskedLabelControl.dll</i>. In order to use the classes, add a
+reference to it in your project. The help file contains details on how to
+do this if you need it. In the code modules that use classes from the
+<code>EWSoftware.MaskedLabelControl</code> namespace, you will have to add a
+<code lang=cs>using</code> statement (<code lang=vbnet>Imports</code> in
+VB.NET) for the <code>EWSoftware.MaskedLabelControl</code> namespace.
+
+<p/>To use the <code>MaskedLabel</code> control, simply drag it from the
+toolbox and drop it on your form.  The following additional properties are
+available:
+
+<ul class="property">
+    <li><code>Mask</code> - At a minimum, you need to set this property to
+define the mask used to format the text.  The mask can be anything that the
+<code>MaskedTextBox</code> control supports.  If no mask is set or the text
+is not valid for the mask, the text is displayed in its unmasked form.</li>
+    <li><code>Culture</code> - This can be set to specify the culture
+information used by the underlying masked text provider.  The current
+culture is used if one is not specified.</li>
+    <li><code>IncludePrompt</code> - If set to true and the specified text
+does not completely fill the mask, the formatted text will be filled out to
+show the prompt character in the unused spaces.  If set to false (the default),
+the formatted text displays only as much as it has.</li>
+    <li><code>PromptChar</code> - This can be set to specify the prompt
+character to display if the <code>IncludePrompt</code> property is set to
+true.  The default is an underscore (_).</li>
+
+</ul>
+
+<p/>Once the mask is defined, setting the control's <code>Text</code>
+property will get it to show the text with the mask applied.  Reading the
+<code>Text</code> property returns the formatted text.  The following
+read-only properties can provide some information about the formatting
+process should you need it:
+
+<ul class="property">
+    <li><code>MaskedTextProvider</code> - This returns a clone of the masked
+text provider object based on the control's current settings.</li>
+    <li><code>ResultHint</code> - This returns the result hint for the last
+assignment to the <code>Text</code> property.  If the assigned text could not
+be properly formatted, this will contain a hint as to why not.  Positive
+values indicate success.  Negative values indicate failure.</li>
+    <li><code>HintPosition</code> - This returns the result hint position
+for the last assignment to the <code>Text</code> property.  If the assigned
+text could not be properly formatted, this will contain the position of the
+first failure.</li>
+    <li><code>UnmaskedText</code> - As its name implies, this returns a copy
+of the unmasked text that was last assigned to the <code>Text</code>
+property.</li>
+
+</ul>
+
+<p/>The static <code>Format</code> method allows you to format masked text
+outside of the control.  There are four overloads for the method.  The
+simplest one takes the format string and the unmasked text.  Again, the
+mask can be anything that the <code>MaskedTextBox</code> control supports.
+The other three take additional parameters for the prompt character,
+culture, and result hint information.
+
+<pre lang="cs">
+// Format a value
+string formattedText = MaskedLabel.Format("000-00-0000",
+    "123121234");
+
+// Show a prompt character in missing positions
+string withPrompt = MaskedLabel.Format("000-00-0000",
+    "12312", '_');
+
+// Show a currency value using the French culture
+string withCulture = MaskedLabel.Format("$0.00",
+    "123", '\x0', new CultureInfo("fr-FR"));
+
+// Format text and get the results
+MaskedTextResultHint hint;
+int pos;
+
+string badText = MaskedLabel.Format("00/00", "123456",
+    '\x0', null, out hint, out pos);
+</pre>
+
+</ul>
+
+<h2>How It Works</h2>
+The <code>MaskedTextBox</code> control utilizes the
+<code>MaskedTextProvider</code> to handle all of the format related
+properties and tasks.  This makes it quite simple to utilize the same
+formatting in other controls such as the <code>MaskedLabel</code> control.
+To use it, you construct a new instance specifying the mask and an optional
+culture.  Other properties can be used to set the prompt character and
+other such options.  To obtain a formatted text value, you call its
+<code>Set</code> method.  This formats the text and returns result information
+such as whether or not the text was valid for the mask.  Using the masked
+text provider's <code>ToString</code> method returns the formatted text.
+Below is the <code>MaskedLabel</code> control's <code>Format</code> method
+that illustrates this process.
+
+<pre lang="cs">
+public static string Format(string mask, string text,
+  char promptChar, CultureInfo culture,
+  out MaskedTextResultHint hint, out int hintPosition)
+{
+    if(text == null)
+        text = String.Empty;
+
+    if(culture == null)
+        culture = CultureInfo.CurrentCulture;
+
+    MaskedTextProvider provider =
+        new MaskedTextProvider(mask, culture);
+
+    // Set the prompt character options
+    if(promptChar != '\x0')
+    {
+        provider.PromptChar = promptChar;
+        provider.IncludePrompt = true;
+    }
+
+    // Format and return the string
+    provider.Set(text, out hintPosition, out hint);
+
+    // Positive hint results are successful
+    if(hint > 0)
+        return provider.ToString();
+
+    // Return the text as-is if it didn't fit the mask
+    return text;
+}
+</pre>
+
+<h2>Known Limitation</h2>
+I have found one limitation with the <code>MaskedTextProvider</code>.  It
+always formats the text from left to right filling in positions as it goes.
+As such, if the mask contains optional characters anywhere but at the end
+of the mask, you generally do not end up with the formatted value that you
+would expect.  This is most easily shown with a format string such as
+"990.00".  If you specify the text "123", you end up with "123." rather
+than "1.23".  As such, the masked text provider works best when there are
+no optional characters or where they only appear at the end of the mask.
+
+<h2>Revision History</h2>
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td valign="top">06/26/2006</td>
+    <td width="50">&nbsp;</td>
+    <td>Initial release</td>
+  </tr>
+</table>
+
+<!-------------------------------    That's it!   --------------------------->
+</body>
+</html>

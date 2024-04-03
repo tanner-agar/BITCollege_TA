@@ -78,7 +78,6 @@ C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\bin\Antlr3.Runtime.pdb
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.csproj.AssemblyReference.cache
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.csproj.CoreCompileInputs.cache
-C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.csproj.CopyComplete
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.dll
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.pdb
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.Initial.resources
@@ -94,3 +93,4 @@ C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITCollege_TA.Migrations.latest.resources
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\bin\Utility.dll
 C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\bin\Utility.pdb
+C:\Users\missi\source\repos\BITCollege_TA\BITCollege_TA\obj\Debug\BITColle.024763B7.Up2Date

@@ -24,7 +24,6 @@ C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\bin\System.Web.Razor
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\bin\System.Web.WebPages.Deployment.xml
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\obj\Debug\BITCollegeService.csproj.AssemblyReference.cache
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\obj\Debug\BITCollegeService.csproj.CoreCompileInputs.cache
-C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\obj\Debug\BITCollegeService.csproj.CopyComplete
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\obj\Debug\BITCollegeService.dll
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\obj\Debug\BITCollegeService.pdb
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\bin\WebGrease.dll
@@ -33,3 +32,4 @@ C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\bin\Antlr3.Runtime.d
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\bin\Newtonsoft.Json.dll
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\bin\Antlr3.Runtime.pdb
 C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\bin\Newtonsoft.Json.xml
+C:\Users\missi\source\repos\BITCollege_TA\BITCollegeService\obj\Debug\BITColle.BA8539D7.Up2Date

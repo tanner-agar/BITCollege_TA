@@ -4,3 +4,9 @@ C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Util
 C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
 C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Utility.dll
 C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Utility.pdb
+C:\Users\missi\source\repos\BITCollege_TA\Utility\bin\Debug\Utility.dll
+C:\Users\missi\source\repos\BITCollege_TA\Utility\bin\Debug\Utility.pdb
+C:\Users\missi\source\repos\BITCollege_TA\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
+C:\Users\missi\source\repos\BITCollege_TA\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\missi\source\repos\BITCollege_TA\Utility\obj\Debug\Utility.dll
+C:\Users\missi\source\repos\BITCollege_TA\Utility\obj\Debug\Utility.pdb
