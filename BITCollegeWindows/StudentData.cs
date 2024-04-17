@@ -140,6 +140,7 @@ namespace BITCollegeWindows
         // StudentNumber matches the value in the MaskedTextBox.
         private void studentNumberMaskedText_Leave(object sender, EventArgs e)
         {
+
             // debugging
             Console.WriteLine("Leave");
 

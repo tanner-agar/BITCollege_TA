@@ -3,51 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\batchupdate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\batchupdate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\bitcollegewindows\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\bitcollegewindows\\batchupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\batchupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\bitcollegewindows\\bitcollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\bitcollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\batchupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\batchupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\bitcollegewindows\\constructordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\constructordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\studentdata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\studentdata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\utility\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|solutionrelative:utility\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollege_ta\\models\\honoursstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|solutionrelative:bitcollege_ta\\models\\honoursstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollege_ta\\models\\masterycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|solutionrelative:bitcollege_ta\\models\\masterycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollege_ta\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|solutionrelative:bitcollege_ta\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\bitcollegewindows\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}|BITCollegeWindows\\BITCollegeWindows.csproj|solutionrelative:bitcollegewindows\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\utility\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|solutionrelative:utility\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\bitcollege_ta\\models\\academicprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|solutionrelative:bitcollege_ta\\models\\academicprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\utility\\numeric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\bitcollege_ta\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6760C9-10D7-47EE-9795-5ADC864732B4}|BITCollege_TA\\BITCollege_TA.csproj|solutionrelative:bitcollege_ta\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|C:\\Users\\missi\\source\\repos\\BITCollege_TA\\utility\\numeric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|solutionrelative:utility\\numeric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|c:\\users\\missi\\source\\repos\\bitcollege_ta\\utility\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}|Utility\\Utility.csproj|solutionrelative:utility\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MaskedLabel||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,160 +58,161 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BITCollege.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BITCollege.cs",
-              "RelativeDocumentMoniker": "BITCollegeWindows\\BITCollege.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BITCollege.cs [Design]",
-              "RelativeToolTip": "BITCollegeWindows\\BITCollege.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:41:31.372Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentData.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\StudentData.cs",
-              "RelativeDocumentMoniker": "BITCollegeWindows\\StudentData.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\StudentData.cs",
-              "RelativeToolTip": "BITCollegeWindows\\StudentData.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAuwJoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:41:43.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "History.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\History.cs",
-              "RelativeDocumentMoniker": "BITCollegeWindows\\History.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\History.cs",
-              "RelativeToolTip": "BITCollegeWindows\\History.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFYAAAAJAAAA",
+              "Title": "BatchUpdate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BatchUpdate.Designer.cs",
+              "RelativeDocumentMoniker": "BITCollegeWindows\\BatchUpdate.Designer.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BatchUpdate.Designer.cs",
+              "RelativeToolTip": "BITCollegeWindows\\BatchUpdate.Designer.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAcwGsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T21:41:20.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConstructorData.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\ConstructorData.cs",
-              "RelativeDocumentMoniker": "BITCollegeWindows\\ConstructorData.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\ConstructorData.cs",
-              "RelativeToolTip": "BITCollegeWindows\\ConstructorData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:39:08.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentData.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\StudentData.Designer.cs",
-              "RelativeDocumentMoniker": "BITCollegeWindows\\StudentData.Designer.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\StudentData.Designer.cs",
-              "RelativeToolTip": "BITCollegeWindows\\StudentData.Designer.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAIAwwOUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T15:56:46.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentData.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\StudentData.cs",
-              "RelativeDocumentMoniker": "BITCollegeWindows\\StudentData.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\StudentData.cs [Design]",
-              "RelativeToolTip": "BITCollegeWindows\\StudentData.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:11:55.272Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Grading.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\Grading.cs",
-              "RelativeDocumentMoniker": "BITCollegeWindows\\Grading.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\Grading.cs",
-              "RelativeToolTip": "BITCollegeWindows\\Grading.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAgwBEAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:57:37.314Z",
+              "WhenOpened": "2024-04-17T19:52:47.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "BITCollege_TA\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\Course.cs",
-              "RelativeToolTip": "BITCollege_TA\\Models\\Course.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAApAAAA",
+              "Title": "Grading.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\Grading.cs",
+              "RelativeDocumentMoniker": "BITCollegeWindows\\Grading.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\Grading.cs",
+              "RelativeToolTip": "BITCollegeWindows\\Grading.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAhwD8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:10:42.415Z",
+              "WhenOpened": "2024-04-17T18:43:16.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CourseType.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\CourseType.cs",
-              "RelativeDocumentMoniker": "Utility\\CourseType.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\CourseType.cs",
-              "RelativeToolTip": "Utility\\CourseType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "BatchUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BatchUpdate.cs",
+              "RelativeDocumentMoniker": "BITCollegeWindows\\BatchUpdate.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BatchUpdate.cs",
+              "RelativeToolTip": "BITCollegeWindows\\BatchUpdate.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:31:09.981Z",
+              "WhenOpened": "2024-04-17T18:20:36.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "Batch.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\Batch.cs",
+              "RelativeDocumentMoniker": "BITCollegeWindows\\Batch.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\Batch.cs",
+              "RelativeToolTip": "BITCollegeWindows\\Batch.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAcwK0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T20:33:35.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BatchUpdate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BatchUpdate.cs",
+              "RelativeDocumentMoniker": "BITCollegeWindows\\BatchUpdate.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\BatchUpdate.cs [Design]",
+              "RelativeToolTip": "BITCollegeWindows\\BatchUpdate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:57:25.572Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HonoursState.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\HonoursState.cs",
+              "RelativeDocumentMoniker": "BITCollege_TA\\Models\\HonoursState.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\HonoursState.cs",
+              "RelativeToolTip": "BITCollege_TA\\Models\\HonoursState.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:35:24.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MasteryCourse.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\MasteryCourse.cs",
+              "RelativeDocumentMoniker": "BITCollege_TA\\Models\\MasteryCourse.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\MasteryCourse.cs",
+              "RelativeToolTip": "BITCollege_TA\\Models\\MasteryCourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:35:19.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BusinessRules.cs",
               "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\BusinessRules.cs",
               "RelativeDocumentMoniker": "Utility\\BusinessRules.cs",
               "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\BusinessRules.cs",
               "RelativeToolTip": "Utility\\BusinessRules.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAIwJ8AAAAoAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T18:31:13.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Numeric.cs",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\Numeric.cs",
-              "RelativeDocumentMoniker": "Utility\\Numeric.cs",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\Numeric.cs",
-              "RelativeToolTip": "Utility\\Numeric.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAaAAAA",
+              "DocumentIndex": 8,
+              "Title": "History.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\History.cs",
+              "RelativeDocumentMoniker": "BITCollegeWindows\\History.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollegeWindows\\History.cs",
+              "RelativeToolTip": "BITCollegeWindows\\History.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:45:52.43Z",
+              "WhenOpened": "2024-04-17T18:43:18.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AcademicProgram.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\AcademicProgram.cs",
+              "RelativeDocumentMoniker": "BITCollege_TA\\Models\\AcademicProgram.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\AcademicProgram.cs",
+              "RelativeToolTip": "BITCollege_TA\\Models\\AcademicProgram.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:21:08.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "BITCollege_TA\\Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\BITCollege_TA\\Models\\Registration.cs",
+              "RelativeToolTip": "BITCollege_TA\\Models\\Registration.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T18:38:34.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MaskedLabel",
-              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\MaskedLabel\\MaskedLabel.csproj",
-              "RelativeDocumentMoniker": "MaskedLabel\\MaskedLabel.csproj",
-              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\MaskedLabel\\MaskedLabel.csproj*",
-              "RelativeToolTip": "MaskedLabel\\MaskedLabel.csproj*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-27T21:26:05.576Z"
+              "Title": "Numeric.cs",
+              "DocumentMoniker": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\Numeric.cs",
+              "RelativeDocumentMoniker": "Utility\\Numeric.cs",
+              "ToolTip": "C:\\Users\\missi\\source\\repos\\BITCollege_TA\\Utility\\Numeric.cs",
+              "RelativeToolTip": "Utility\\Numeric.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:45:52.43Z"
             }
           ]
         }

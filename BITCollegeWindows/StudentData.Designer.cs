@@ -177,7 +177,6 @@ namespace BITCollegeWindows
             this.grpStudent.TabIndex = 0;
             this.grpStudent.TabStop = false;
             this.grpStudent.Text = "Student Data";
-            this.grpStudent.Enter += new System.EventHandler(this.grpStudent_Enter);
             // 
             // descriptionLabel1
             // 
@@ -230,7 +229,6 @@ namespace BITCollegeWindows
             this.fullNameLabel2.Name = "fullNameLabel2";
             this.fullNameLabel2.Size = new System.Drawing.Size(100, 23);
             this.fullNameLabel2.TabIndex = 6;
-            this.fullNameLabel2.Click += new System.EventHandler(this.fullNameLabel2_Click);
             // 
             // studentNumberTextBox
             // 
